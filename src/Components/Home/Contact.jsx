@@ -21,7 +21,7 @@ function Contact() {
     setSubmited(true);
 
     const userData = {
-      access_key: "08f8765f-73dd-4744-bbd5-6acfca14dee3",
+      access_key: "ead47d86-18b3-4120-9280-24a3f4a51e1e",
       name: userName,
       email: userEmail,
       message: userMessage
@@ -65,15 +65,15 @@ function Contact() {
           <p className='w-full sm:w-11/12 lg:w-3/4 pb-10 sm:py-4 text-sm' > <span className='font-bold text-lg' >Hyy there!</span><br /> Thank you so much for visiting my portfolio and taking the time to explore my projects. If you have any thoughts or feedback, I’d love to hear them! Your suggestions would be incredibly helpful and mean a lot to me as I continue to improve. <br /> Feel free to drop me a message anytime! <br /> <span className='text-lg sm:text-xl font-bold'>Thanks for visiting!😊</span></p>
           <div className='flex justify-start mb-4 sm:my-4 ' >
             <img src={mail_icon} alt="" className='h-3 w-10 mt-1 cursor-pointer ' />
-            <p className='sm:px-2 text-sm cursor-pointer '>luckythakur13709@gmail.com  </p>
+            <p className='sm:px-2 text-sm cursor-pointer '>ashishjha97099@gmail.com  </p>
           </div>
           <div className='flex justify-start my-2 sm:my-4 ' >
             <img src={call_icon} alt="" className='h-4 w-10 mt-1 cursor-pointer ' />
-            <p className='sm:px-2 text-sm  cursor-pointer'>+91-7807294285  </p>
+            <p className='sm:px-2 text-sm  cursor-pointer'>+91-9508272452  </p>
           </div>
           <div className='flex justify-start sm:my-4 ' >
             <img src={location_icon} alt="" className='h-4 w-10 mt-1 cursor-pointer ' />
-            <p className='sm:px-2 text-sm  cursor-pointer'>Pinjore, Panchkula Haryana  </p>
+            <p className='sm:px-2 text-sm  cursor-pointer'>SVIET Campus, Rajpura Punjab  </p>
           </div>
         </div>
 

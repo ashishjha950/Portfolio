@@ -1,12 +1,12 @@
-import projects from '../../assets/Data/latestProjects'
+import projects from '../../assets/Data/frontendProject'
 import { BiCircle, BiStar } from 'react-icons/bi'
 
-function LatestWork() {
+function FrontendWork() {
 
   return (
-    <div id='latestwork' div className=' relative m-auto mt-10 mb-2'>
+    <div id='latestwork' div className=' relative m-auto my-20'>
       <div className='m-auto text-center relative'>
-        <h1 className='text-3xl md:text-5xl font-semibold py-7'>Latest Work</h1>
+        <h1 className='text-3xl md:text-5xl font-semibold py-7'>My Frontend Work</h1>
         <BiStar className=' animate-spin text-2xl absolute bottom-0' />
       </div>
       <BiCircle className='text-5xl animate-pulse absolute bottom-0 right-10' />
@@ -35,4 +35,4 @@ function LatestWork() {
   )
 }
 
-export default LatestWork
+export default FrontendWork

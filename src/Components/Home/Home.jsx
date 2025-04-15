@@ -4,6 +4,7 @@ import Hero from './Hero'
 import LatestWork from './LatestWork'
 import Contact from './Contact'
 import About from './About'
+import FrontendWork from './FrontendWork'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <About />
       <LatestWork />
+      <FrontendWork/>
       <Contact />
       <Footer />
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import usericon from '../assets/user_icon.svg'
-import { BiLogoGithub, BiLogoInstagram, BiLogoLinkedin, BiLogoTwitter } from 'react-icons/bi'
+import { BiLogoGithub, BiLogoInstagram, BiLogoLinkedin } from 'react-icons/bi'
 import { Link } from 'react-scroll'
 
 function Footer() {
@@ -10,7 +10,7 @@ function Footer() {
         {/* Upper Side */}
         <div className='w-full m-auto flex flex-col md:flex-row justify-between items-center pb-4 md:pb-0  border-2 border-transparent border-b-white '>
           <div className='w-full md:w-1/2'>
-            <h1 className='text-2xl md:text-3xl font-bold pb-2' >Lucky Thakur</h1>
+            <h1 className='text-2xl md:text-3xl font-bold pb-2' >Ashish Kumar Jha</h1>
             <p className='pb-4 text-xs md:text-base'>"Get in touch for web development insights and projects. Connect with me through social media for updates."</p>
           </div>
           <div className='w-full md:w-1/2 flex justify-start md:justify-end '>
@@ -25,8 +25,9 @@ function Footer() {
         {/* Lower Side */}
         <div className='w-full sm:text-base flex flex-col md:flex-row mt-4'>
           <div className='w-full md:w-1/4 pb-2 sm:pb-0 m-auto md:ml-0 mt-0 flex md:justify-start items-start'>
-            <a href="https://www.linkedin.com/in/lucky-thakur-533628258/" className='text-xl' ><BiLogoLinkedin /></a>
-            <a href="https://github.com/luckythakur00" className='text-xl ml-6' ><BiLogoGithub /></a>
+            <a href="https://www.linkedin.com/in/ashish-kumar-jha-b47955288/" className='text-xl' ><BiLogoLinkedin /></a>
+            <a href="https://github.com/ashishjha950" className='text-xl ml-6' ><BiLogoGithub /></a>
+            <a href="https://www.instagram.com/ashu_950_/" className='text-xl ml-6' ><BiLogoInstagram /></a>
           </div>
           <div className='w-full md:w-3/4 hidden sm:flex flex-row justify-start md:justify-between lg:justify-end text-start pt-2 md:pt-0 md:pl-4 lg:pl-10 '>
             <li className='list-none text-gray-300 pb-3 md:pb-5 md:pl-7'>Terms of Services</li>
