@@ -27,7 +27,7 @@ function Hero() {
 
       </div>
       <div >
-        <img className='p-2 bg-black border border-white rounded-full w-[400px] h-[500px]' src={profilePic} width={250} loading='lazy' alt="profilePic" />
+        <img className='p-2 bg-black border border-white rounded-full' src={profilePic} width={250} loading='lazy' alt="profilePic" />
       </div>
     </div>
   )
