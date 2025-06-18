@@ -1,5 +1,6 @@
 import bmicalculator from '../images/bmicalculator.jpg'
 import agecalculator from '../images/agecalculator.jpg'
+import QuickKartFrontend from '../images/QuickKartFrontend.png'
 import sicalculator from '../images/sicalculator.jpg'
 import todolist from '../images/todolist.jpg'
 import stopwatch from '../images/stopwatch.jpg'
@@ -7,6 +8,13 @@ import currencyconverter from '../images/currencyconverter.jpg'
 
 const projects = [
     
+    {
+      projectImg: QuickKartFrontend,
+      projectCode: 'https://github.com/ashishjha950/QuickKart-Frontend',
+      projectView: 'https://quick-kart-frontend.vercel.app/',
+      projectTitle: 'QuickKart(Frontend)',
+      projectDescription: 'This is a fully functional eCommerce website built using React.js and Context API. It features a dynamic product catalog powered by the DummyJSON API, a responsive user interface, theme toggling (light/dark), and advanced cart functionalities like quantity control and total price calculation.'
+    },
     {
       projectImg: agecalculator,
       projectCode: 'https://github.com/ashishjha950/practice-01/tree/main/Age%20Calculator',

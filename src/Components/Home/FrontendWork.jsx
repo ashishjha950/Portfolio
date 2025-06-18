@@ -15,7 +15,7 @@ function FrontendWork() {
       <div className='h-full w-full xl:w-11/12 m-auto flex flex-wrap justify-between items-start ' >
         {
           projects.map((val, ind) => (
-            <div key={ind} className='h-96 w-96 sm:w-[48%] lg:h-64 m-auto rounded-lg flex flex-col lg:flex-row lg:pt-2 mb-8 sm:mb-4 ' >
+            <div key={ind} className='h-auto w-96 sm:w-[48%] m-auto rounded-lg flex flex-col lg:flex-row lg:pt-2 mb-8 sm:mb-4 ' >
               <a href={val.projectView} className='h-[60%] w-full lg:h-60 lg:w-[80%] m-auto' >
                 <img className='project h-[92%] w-11/12 m-auto duration-300 rounded-lg object-cover ' src={val.projectImg} />
               </a>
