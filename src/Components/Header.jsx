@@ -7,7 +7,7 @@ function Header({ setSideBar }) {
     const [headervalue, setHeaderValue] = useState('home')
 
     return (
-        <div className='h-14 w-full flex justify-between py-2 px-2 lg:px-10 xl:px-14 fixed z-30 shadow-md shadow-white/30 md:shadow-none bg-black  text-white' >
+        <div className='h-14 w-full flex justify-between py-2 px-2 lg:px-10 xl:px-14 fixed z-50 shadow-md shadow-white/30 md:shadow-none bg-black  text-white' >
             {/* Logo */}
             <Link to='home' className='' smooth={true} offset={-60} duration={500} >
                 <div className='textanimation h-full text-xl md:text-lg lg:text-3xl font-semibold cursor-pointer' >Ashish Kumar Jha</div>
